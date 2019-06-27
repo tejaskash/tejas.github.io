@@ -4,21 +4,31 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="firefox">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="Tejas" content="This is a personal portfolio website">
-        <title>Smith</title>
-        <link rel="shortcut icon" href="http://droitlab.com/html/smith/v1/main/image/faveicon.png" type="image/x-icon">
-        <link href="assets/bootstrap.css" rel="stylesheet">
-        <link href="assets/bootstrap-theme.css" rel="stylesheet">
-        <link href="assets/font-awesome.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/themify-icons.css">
-        <link rel="stylesheet" href="assets/style_002.css">
-        <link rel="stylesheet" href="assets/magnific-popup.css">
-        <link rel="stylesheet" href="assets/owl.css">
-        <link rel="stylesheet" href="assets/animate.css">
-        <link rel="stylesheet" href="assets/style.css">
-        <link rel="stylesheet" href="assets/responsive.css">
+        <meta name="Smith" content="This is a porsonal portfolio template">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Tejas</title>
+        <link href="Smith_files/bootstrap.css" rel="stylesheet">
+        <link href="Smith_files/bootstrap-theme.css" rel="stylesheet">
+        <link href="Smith_files/font-awesome.css" rel="stylesheet">
+        <link rel="stylesheet" href="Smith_files/themify-icons.css">
+        <!-- strock-Gap-icon -->
+        <link rel="stylesheet" href="Smith_files/style_002.css">
+        <!-- magnific popup-->
+        <link rel="stylesheet" href="Smith_files/magnific-popup.css">
+        <!--        owl carousel css-->
+        <link rel="stylesheet" href="Smith_files/owl.css">
+        <link rel="stylesheet" href="Smith_files/animate.css">
+        <!--    css-->
+        <link rel="stylesheet" href="Smith_files/style.css">
+        <link rel="stylesheet" href="Smith_files/responsive.css">
+        <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
     </head>
-    <body style="overflow: visible;">
+    <body data-spy="scroll" data-target=".navbar" data-offset="60" style="overflow: visible;">
         <!-- Preloader-->
         <div class="loader-container" style="display: none;">
 			<div class="loader" style="display: none;">
@@ -30,64 +40,67 @@
 			</div>
 		</div>
         <!-- End Preloader-->
-        <nav class="navbar navbar-fixed-top header-dark affix-top" data-spy="affix" data-offset-top="80">
-            <div class="container-fluid">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
+        <header>
+            <nav class="navbar navbar-default navbar-fixed-top affix-top" data-spy="affix" data-offset-top="80">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav navbar-right menu smooth-scroll">
+                            <li class="active"><a href="#welcome">Welcome</a></li>
+                            <li class=""><a href="#about">About me</a></li>
+                            <li class=""><a href="#skills">Skills</a></li>
+                            <li><a href="#expertise">Expertise</a></li>
+                            <li><a href="#experiences">Experiences</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#education">Education</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#awards">Awards</a></li>
+                            <li><a href="#profiles">Profiles</a></li>
+                            <li><a href="#clients">Clients</a></li>
+                            <li><a href="#blog">Blog</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                            <li class="nav-lang">
+                            <a class="active" href="#">EN</a>
+                            <a href="#">FR</a>
+                            <a href="#">GR</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                    <ul class="nav navbar-nav navbar-right menu smooth-scroll">
-                        <li class="active"><a href="#welcome">Welcome</a></li>
-                        <li><a href="#about">About me</a></li>
-                        <li><a href="#skills">Skills</a></li>
-                        <li><a href="#expertise">Expertise</a></li>
-                        <li><a href="#experiences">Experiences</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#education">Education</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#awards">Awards</a></li>
-                        <li><a href="#profiles">Profiles</a></li>
-                        <li><a href="#clients">Clients</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                        <li class="nav-lang">
-                        <a class="active" href="#">EN</a>
-                        <a href="#">FR</a>
-                        <a href="#">GR</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </header>
+        
         <!--=============Start welcome section===========-->
         <section class="wel-section" id="welcome">
             <div class="container">
-                <div class="row dark-bg">
+                <div class="row">
                     <div class="col-md-3 col-left">
                         <div class="header-photo">
-                            <img class="img-circle" src="assets/1.png" alt="Photo" data-pagespeed-url-hash="2089789585" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                            <img class="img-circle" src="Smith_files/1.png" alt="Photo" data-pagespeed-url-hash="2089789585" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                         </div>
                         <div class="wel-social">
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="#"></a>
+                            <a href="https://github.com/tejaskashinathofficial"><img src="Smith_files/github-logo.png" height="30" width="30"></a>
                             <a href=""> </a>
-                            <a href=""> </a>
-                            <a href=""> </a>
-                            <a href="https://github.com/tejaskashinathofficial"><img src="assets/github-logo.png" height="30" width="30"></a>
-                            <a href=""> </a>
-                            <a href="https://www.linkedin.com/in/tejas-kashinath/"><img src="assets/linkedin.png" height="30" width="30"></a>
+                            <a href="https://www.linkedin.com/in/tejas-kashinath/"><img src="Smith_files/linkedin.png" height="30" width="30"></a>
                         </div>
                     </div>
                     <div class="col-md-9 col-right wel-content">
                         <h3 class="hello-t">Hello, I am</h3>
                         <h1 class="name-t">Tejas <br><span>Kashinath</span></h1>
-                        <h2 class="expart-n">Student &amp; Computer Vision Enthusiast</h2>
+                        <h2 class="expart-n">Student | Computer Vision Enthusiast</h2>
                         <div class="header-contact-infos">
-                            <div class="header-contact-info"><i class="fa fa-map-marer" aria-hidden="true"><img src="assets/pin.png" height="25" width="25"></i>Manipal, India</div>
-                            <a href="mailto:kashinath.tejas64@gmail.com" class="header-contact-info"><i class="fa fa-envlope-o" aria-hidden="true"><img src="assets/gmail.png" height="25" width="25"></i>kashinath.tejas64@gmail.com</a>
-                            <div class="header-contact-info"><a href="tel:+918826736890"><i class="fafa-phone" aria-hidden="true"><img src="assets/phone-receiver.png" height="25" width="25"></i>+918826736890</a></div>
+                            <div href="#" class="header-contact-info"><i class="fa fa-map-maker" aria-hidden="true"><img src="Smith_files/pin.png" height="25" width="25"></i>Manipal, India</div>
+                            <a href="mailto:kashinath.tejas64@gmail.com" class="header-contact-info"><i class="fa fa-enveloe-o" aria-hidden="true"><img src="Smith_files/gmail.png" height="25" width="25"></i>kashinath.tejas64@gmail.com</a>
+                            <div href="tel:+918826736890" class="header-contact-info"><i class="fa faphone" aria-hidden="true"><img src="Smith_files/phone-receiver.png" height="25" width="25"></i>+918826736890</div>
                         </div>
                     </div>
                 </div>
@@ -97,18 +110,18 @@
         <!--=============Start about section===========-->
         <section id="about" class="about">
             <div class="container">
-                <div class="row display-f bg-color dark-bg">
+                <div class="row display-f bg-color">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>About</h2>
                             <h6>A little about me</h6>
                         </div>
                     </div>
                     <div class="col-md-9 col-right sec-pad">
                         <div class="about-content">
-                            <p>Programmer at heart and a team player recognized for impassioned approach and colorful ideas. Love to find solutions
+                            <p>Programmer at heart and a team player recognized for impassioned approach and colorful ideas. I Love to find solutions
                                     to real world problems that can be solved using technology especially in the areas of Machine Learning and Computer
-                                    Vision. Currently pursuing bachelors degree in Information and Communication Technology.</p>
+                                    Vision. Currently pursuing a bachelors degree in Information and Communication Technology.</p>
                         </div>
                     </div>
                 </div>
@@ -118,9 +131,9 @@
         <!--=============Start skill section===========-->
         <section id="skills" class="skills">
             <div class="container">
-                <div class="row display-f dark-bg">
+                <div class="row display-f">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Skills</h2>
                             <h6>What I love to do</h6>
                         </div>
@@ -128,40 +141,35 @@
                     <div class="col-md-9 col-right sec-pad">
                         <div class="skill-content">
                             <div id="bt-ourskill" class="row progress-element">
-                               <div class="col-xs-6 pr-item">
+                                <div class="col-xs-6 pr-item">
                                     <div class="skill-info"><h4 class="skill-name">Python</h4></div>
-                                    <div class="bt-skill">
-                                        <div class="bt-skillholder" data-percent="88%"><div class="bt-skillbar" style="width: 88%;"></div></div>                            
+                                    <div class="bt-skill">                            
                                     </div> 
                                 </div>
                                 <div class="col-xs-6 pr-item">
-                                    <div class="skill-info"><h4 class="skill-name">Sketch 3.0</h4><div class="skill-val"><span class="counter">70</span>%</div></div>
-                                    <div class="bt-skill">
-                                        <div class="bt-skillholder" data-percent="88%"><div class="bt-skillbar" style="width: 88%;"></div></div>                            
+                                    <div class="skill-info"><h4 class="skill-name">C++</h4></div>
+                                    <div class="bt-skill">                            
                                     </div> 
                                 </div>
                                 <div class="col-xs-6 pr-item">
-                                    <div class="skill-info"><h4 class="skill-name">Adobe Illustrator</h4><div class="skill-val"><span class="counter">60</span>%</div></div>
+                                    <div class="skill-info"><h4 class="skill-name">Java</h4>
                                     <div class="bt-skill">
-                                        <div class="bt-skillholder" data-percent="88%"><div class="bt-skillbar" style="width: 88%;"></div></div>                            
                                     </div> 
                                 </div>
                                 <div class="col-xs-6 pr-item">
-                                    <div class="skill-info"><h4 class="skill-name">Invisonapp</h4><div class="skill-val"><span class="counter">70</span>%</div></div>
+                                    <div class="skill-info"><h4 class="skill-name">Keras</h4>
                                     <div class="bt-skill">
-                                        <div class="bt-skillholder" data-percent="88%"><div class="bt-skillbar" style="width: 88%;"></div></div>                            
+                                        
                                     </div> 
                                 </div>
                                 <div class="col-xs-6 pr-item">
-                                    <div class="skill-info"><h4 class="skill-name">Bootstrap</h4><div class="skill-val"><span class="counter">80</span>%</div></div>
-                                    <div class="bt-skill">
-                                        <div class="bt-skillholder" data-percent="88%"><div class="bt-skillbar" style="width: 88%;"></div></div>                            
+                                    <div class="skill-info"><h4 class="skill-name">Arduino &amp; Raspberry Pi</h4>
+                                    <div class="bt-skill">                            
                                     </div>  
                                 </div>
                                 <div class="col-xs-6 pr-item">
-                                    <div class="skill-info"><h4 class="skill-name">HTML5, CSS3</h4><span class="skill-val">80%</span></div>
-                                    <div class="bt-skill">
-                                        <div class="bt-skillholder" data-percent="88%"><div class="bt-skillbar" style="width: 88%;"></div></div>                            
+                                    <div class="skill-info"><h4 class="skill-name">Linux &amp; Git</h4>
+                                    <div class="bt-skill">                            
                                     </div> 
                                 </div>
                             </div>
@@ -174,9 +182,9 @@
         <!--=============Start expertise section===========-->
         <section id="expertise" class="expertise">
             <div class="container">
-                <div class="row display-f dark-bg bg-color">
+                <div class="row display-f bg-color">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Expertise</h2>
                             <h6>What I can bring to table</h6>
                         </div>
@@ -189,7 +197,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h4 class="title">UI/UX Design &amp; Research</h4>
-                                    <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 media expertise-media">
@@ -198,7 +206,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h4 class="title">Web Development</h4>
-                                    <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 media expertise-media">
@@ -207,7 +215,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h4 class="title">Website Design</h4>
-                                    <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 media expertise-media">
@@ -216,7 +224,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h4 class="title">WP Theme Development</h4>
-                                    <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 media expertise-media">
@@ -225,7 +233,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h4 class="title">Mobile App Design</h4>
-                                    <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
                                 </div>
                             </div>
                             <div class="col-xs-6 media expertise-media">
@@ -234,7 +242,7 @@
                                 </div>
                                 <div class="media-body">
                                     <h4 class="title">Wireframing &amp; Prototyping</h4>
-                                    <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
                                 </div>
                             </div>
                         </div>
@@ -246,16 +254,16 @@
         <!--=============Start experiences section===========-->
         <section id="experiences" class="experiences">
             <div class="container">
-                <div class="row display-f dark-bg">
+                <div class="row display-f">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Experiences</h2>
                             <h6>What I love to do</h6>
                         </div>
                     </div>
                     <div class="col-md-9 col-right sec-pad">
                         <div class="row row-experience">
-                            <div class="col-xs-3">
+                            <div class="col-xs-3 col-full">
                                 <h5 class="experience-date">June 2012<br>to Present</h5>
                             </div>
                             <div class="col-xs-9 ex-content">
@@ -267,7 +275,7 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             </div>
                         </div>
                         <div class="row row-experience">
-                            <div class="col-xs-3">
+                            <div class="col-xs-3 col-full">
                                 <h5 class="experience-date">Feb 2010<br>to May 2012</h5>
                             </div>
                             <div class="col-xs-9 ex-content">
@@ -279,7 +287,7 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             </div>
                         </div>
                         <div class="row row-experience">
-                            <div class="col-xs-3">
+                            <div class="col-xs-3 col-full">
                                 <h5 class="experience-date">Jan 2008<br>to Feb 2010</h5>
                             </div>
                             <div class="col-xs-9 ex-content">
@@ -298,9 +306,9 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
         <!--=============Start portfolio section===========-->
         <section id="portfolio" class="portfolio">
             <div class="container">
-                <div class="row display-f dark-bg bg-color">
+                <div class="row display-f bg-color">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Portfolio</h2>
                             <h6>My amazing works</h6>
                         </div>
@@ -314,54 +322,54 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             <li data-filter=".app">App</li>
                         </ul>
                         <div id="portfolio-grid" class="row portfolio-grid" style="position: relative; height: 981.249px;">
-                            <div class="col-sm-6 portfolio-item brand" style="position: absolute; left: 0px; top: 0px;">
-                                <a href="http://droitlab.com/html/smith/v1/main/image/home-1/portfolio/2.jpg" title="Branding" data-desc="Logo, business card and other branding materials design" class="popup">
+                            <div class="col-sm-6 col-xs-6 portfolio-item gr brand" style="position: absolute; left: 0px; top: 0px;">
+                                <a href="http://droitlab.com/html/smith/v1/main/image/home-1/portfolio/1.jpg" title="Branding" data-desc="Logo, business card and other branding materials design" class="popup">
                                     <div class="portfolio-image">
-                                        <img src="assets/2.jpg" alt="portfolio" data-pagespeed-url-hash="3860680027" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                        <img src="Smith_files/1.jpg" alt="portfolio" data-pagespeed-url-hash="3566180106" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                         <div class="texts">
                                             <h5>Branding</h5>
-                                            <p>Website design project for ABC furnitures</p>
+                                            <p>Logo, business card and other branding materials design</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6 portfolio-item gr app" style="position: absolute; left: 401px; top: 0px;">
+                            <div class="col-sm-6 col-xs-6 portfolio-item app brand web" style="position: absolute; left: 401px; top: 0px;">
                                 <a href="http://droitlab.com/html/smith/v1/main/image/home-1/portfolio/2.jpg" title="UI/UX Design" data-desc="Mobile and Web Application UI/UX design" class="popup">
                                     <div class="portfolio-image">
-                                        <img src="assets/2.jpg" alt="portfolio" data-pagespeed-url-hash="3860680027" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                        <img src="Smith_files/2.jpg" alt="portfolio" data-pagespeed-url-hash="3860680027" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                         <div class="texts">
-                                            <h5>Branding</h5>
-                                            <p>Website design project for ABC furnitures</p>
+                                            <h5>UI/UX Design</h5>
+                                            <p>Mobile and Web Application UI/UX design</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6 portfolio-item web brand" style="position: absolute; left: 0px; top: 327px;">
+                            <div class="col-sm-6 col-xs-6 portfolio-item gr brand" style="position: absolute; left: 0px; top: 327px;">
                                 <a href="http://droitlab.com/html/smith/v1/main/image/home-1/portfolio/3.jpg" title="Web Design" data-desc="Web design with most recent design trends" class="popup">
                                     <div class="portfolio-image">
-                                        <img src="assets/3.jpg" alt="portfolio" data-pagespeed-url-hash="4155179948" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                        <img src="Smith_files/3.jpg" alt="portfolio" data-pagespeed-url-hash="4155179948" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                         <div class="texts">
-                                            <h5>Branding</h5>
-                                            <p>Website design project for ABC furnitures</p>
+                                            <h5>Web Design</h5>
+                                            <p>Web design with most recent design trends</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6 portfolio-item app brand gr" style="position: absolute; left: 401px; top: 327px;">
+                            <div class="col-sm-6 col-xs-6 portfolio-item app" style="position: absolute; left: 401px; top: 327px;">
                                 <a href="http://droitlab.com/html/smith/v1/main/image/home-1/portfolio/4.jpg" title="Graphic Design" data-desc="Awesome graphic design skills" class="popup">
                                     <div class="portfolio-image">
-                                        <img src="assets/4.jpg" alt="portfolio" data-pagespeed-url-hash="154712573" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                        <img src="Smith_files/4.jpg" alt="portfolio" data-pagespeed-url-hash="154712573" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                         <div class="texts">
-                                            <h5>Branding</h5>
-                                            <p>Website design project for ABC furnitures</p>
+                                            <h5>Graphic Design</h5>
+                                            <p>Awesome graphic design skills</p>
                                         </div>
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6 portfolio-item gr" style="position: absolute; left: 0px; top: 654px;">
+                            <div class="col-sm-6 col-xs-6 portfolio-item app web gr" style="position: absolute; left: 0px; top: 654px;">
                                 <a href="http://droitlab.com/html/smith/v1/main/image/home-1/portfolio/5.jpg" title="Branding" data-desc="Website design project for ABC furnitures" class="popup">
                                     <div class="portfolio-image">
-                                        <img src="assets/5.jpg" alt="portfolio" data-pagespeed-url-hash="449212494" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                        <img src="Smith_files/5.jpg" alt="portfolio" data-pagespeed-url-hash="449212494" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                         <div class="texts">
                                             <h5>Branding</h5>
                                             <p>Website design project for ABC furnitures</p>
@@ -369,13 +377,13 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                                     </div>
                                 </a>
                             </div>
-                            <div class="col-sm-6 portfolio-item brand" style="position: absolute; left: 401px; top: 654px;">
+                            <div class="col-sm-6 col-xs-6 portfolio-item app brand gr" style="position: absolute; left: 401px; top: 654px;">
                                 <a href="http://droitlab.com/html/smith/v1/main/image/home-1/portfolio/6.jpg" title="App Design" data-desc="Awesome App design skills" class="popup">
                                     <div class="portfolio-image">
-                                        <img src="assets/6.jpg" alt="portfolio" data-pagespeed-url-hash="743712415" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                        <img src="Smith_files/6.jpg" alt="portfolio" data-pagespeed-url-hash="743712415" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                         <div class="texts">
-                                            <h5>Branding</h5>
-                                            <p>Website design project for ABC furnitures</p>
+                                            <h5>App Design</h5>
+                                            <p>Awesome App design skills</p>
                                         </div>
                                     </div>
                                 </a>
@@ -386,20 +394,19 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
             </div>
         </section>
         <!--=============End portfolio section===========-->
-        
         <!--=============Start experiences section===========-->
         <section id="education" class="experiences">
             <div class="container">
-                <div class="row display-f dark-bg">
+                <div class="row display-f">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Education</h2>
                             <h6>I learnt a lot in my life</h6>
                         </div>
                     </div>
                     <div class="col-md-9 col-right sec-pad">
                         <div class="row row-experience">
-                            <div class="col-xs-3">
+                            <div class="col-xs-3 col-full">
                                 <h5 class="experience-date">June 2012<br>to Present</h5>
                             </div>
                             <div class="col-xs-9 ex-content">
@@ -411,7 +418,7 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             </div>
                         </div>
                         <div class="row row-experience">
-                            <div class="col-xs-3">
+                            <div class="col-xs-3 col-full">
                                 <h5 class="experience-date">Feb 2010<br>to May 2012</h5>
                             </div>
                             <div class="col-xs-9 ex-content">
@@ -423,7 +430,7 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             </div>
                         </div>
                         <div class="row row-experience">
-                            <div class="col-xs-3">
+                            <div class="col-xs-3 col-full">
                                 <h5 class="experience-date">Jan 2008<br>to Feb 2010</h5>
                             </div>
                             <div class="col-xs-9 ex-content">
@@ -439,13 +446,12 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
             </div>
         </section>
         <!--=============End experiences section===========-->
-        
         <!--=============start testimonials section===========-->
         <section id="testimonials" class="testimonials">
             <div class="container">
-                <div class="row display-f dark-bg bg-color">
+                <div class="row display-f bg-color">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Testimonials</h2>
                             <h6>What clients say about me</h6>
                         </div>
@@ -456,7 +462,7 @@ consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
                             
                             
                             
-                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-3268px, 0px, 0px); transition: all 1s ease 0s; width: 5719px;"><div class="owl-item cloned" style="width: 787px; margin-right: 30px;"><div class="testimonial-item">
+                        <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2451px, 0px, 0px); transition: all 1s ease 0s; width: 5719px;"><div class="owl-item cloned" style="width: 787px; margin-right: 30px;"><div class="testimonial-item">
                                 <p class="testimonial-p">In nisi neque, 
 aliquet vel, dapibus id, mattis vel, nisi. Praesent elementum hendrerit 
 tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
@@ -486,17 +492,17 @@ neque, aliquet vel, dapibus id, mattis vel, nisi. Sed egestas, ante et
 vulputate volutpat, eros pede semper est, vitae luctus metus</p>
                                 <h4 class="title">John Smith</h4>
                                 <h5 class="testimonial-subheading">ABC Incorporation Ltd.</h5>
-                            </div></div><div class="owl-item" style="width: 787px; margin-right: 30px;"><div class="testimonial-item">
-                                <p class="testimonial-p">In nisi neque, 
-aliquet vel, dapibus id, mattis vel, nisi. Praesent elementum hendrerit 
-tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
- sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. 
-Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna. Fusce 
-lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
- ante et vulputate volutpat, eros pede semper est, vitae luctus metus</p>
-                                <h4 class="title">Jane Doe</h4>
-                                <h5 class="testimonial-subheading">Adobe Inc.</h5>
                             </div></div><div class="owl-item active" style="width: 787px; margin-right: 30px;"><div class="testimonial-item">
+                                <p class="testimonial-p">In nisi neque, 
+aliquet vel, dapibus id, mattis vel, nisi. Praesent elementum hendrerit 
+tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a ultrices
+ sagittis, mi neque euismod dui, eu pulvinar nunc sapien ornare nisl. 
+Phasellus pede arcu, dapibus eu, fermentum et, dapibus sed, urna. Fusce 
+lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
+ ante et vulputate volutpat, eros pede semper est, vitae luctus metus</p>
+                                <h4 class="title">Jane Doe</h4>
+                                <h5 class="testimonial-subheading">Adobe Inc.</h5>
+                            </div></div><div class="owl-item" style="width: 787px; margin-right: 30px;"><div class="testimonial-item">
                                 <p>Sed egestas, ante et vulputate 
 volutpat, eros pede semper est, vitae luctus metus. Praesent elementum 
 hendrerit tortor. Sed semper lorem at felis. Vestibulum volutpat, lacus a
@@ -526,19 +532,18 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
  ante et vulputate volutpat, eros pede semper est, vitae luctus metus</p>
                                 <h4 class="title">Jane Doe</h4>
                                 <h5 class="testimonial-subheading">Adobe Inc.</h5>
-                            </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div></div></div>
+                            </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div>
                     </div>
                 </div>
             </div>
         </section>
         <!--=============End testimonials section===========-->
-        
         <!--=============start awards-area section===========-->
         <section id="awards" class="awards-area">
             <div class="container">
-                <div class="row display-f dark-bg">
+                <div class="row display-f">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Awards</h2>
                             <h6>Achievements of a lifetime</h6>
                         </div>
@@ -546,28 +551,28 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
                     <div class="col-md-9 col-right awards">
                         <div class="row">
                             <div class="col-xs-6 award-item">
-                                <img src="assets/a.png" alt="Award" data-pagespeed-url-hash="990107524" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="Smith_files/a_002.png" alt="Award" data-pagespeed-url-hash="990107524" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                 <h4 class="title">Best UI/UX Design</h4>
                                 <h5>Adobe Yearly Awards</h5>
-                                <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             </div>
                             <div class="col-xs-6 award-item">
-                                <img src="assets/b.png" alt="Award" data-pagespeed-url-hash="1284607445" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="Smith_files/b.png" alt="Award" data-pagespeed-url-hash="1284607445" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                 <h4 class="title">Web Design Ninja</h4>
                                 <h5>ABC Incorporation Awards</h5>
-                                <p class="sec-p">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                             </div>
                             <div class="col-xs-6 award-item">
-                                <img src="assets/c.png" alt="Award" data-pagespeed-url-hash="1579107366" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="Smith_files/c_002.png" alt="Award" data-pagespeed-url-hash="1579107366" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                 <h4 class="title">Silver Star</h4>
                                 <h5>Forbes Magazine</h5>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                             </div>
                             <div class="col-xs-6 award-item">
-                                <img src="assets/d.png" alt="Award" data-pagespeed-url-hash="1873607287" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="Smith_files/d.png" alt="Award" data-pagespeed-url-hash="1873607287" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
                                 <h4 class="title">Site of the Day</h4>
                                 <h5>Awwwards.com</h5>
-                                <p class="sec-p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>
                             </div>
                         </div>
                     </div>
@@ -575,13 +580,12 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
             </div>
         </section>
         <!--=============End awards-area section===========-->
-        
         <!--=============start profiles-area section===========-->
         <section id="profiles" class="profiles-area">
             <div class="container">
-                <div class="row display-f dark-bg bg-color">
+                <div class="row display-f bg-color">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Online Profiles</h2>
                             <h6>I am always active - everywhere</h6>
                         </div>
@@ -589,34 +593,34 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
                     <div class="col-md-9 col-right profiles">
                         <div class="row">
                             <div class="col-sm-4 col-xs-6 col-profile">
-                                <a href="#"><img src="assets/a_002.png" alt="Profile" data-pagespeed-url-hash="542312108" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/a_003.png" alt="Profile" data-pagespeed-url-hash="542312108" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                 <a href="#"><h4 class="title">Behance</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
                             </div>
                             <div class="col-sm-4 col-xs-6 col-profile">
-                                <a href="#"><img src="assets/b_002.png" alt="Profile" data-pagespeed-url-hash="836812029" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/b_003.png" alt="Profile" data-pagespeed-url-hash="836812029" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                 <a href="#"><h4 class="title">Dribbble</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
                             </div>
                             <div class="col-sm-4 col-xs-6 col-profile">
-                                <a href="#"><img src="assets/c_002.png" alt="Profile" data-pagespeed-url-hash="1131311950" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/c.png" alt="Profile" data-pagespeed-url-hash="1131311950" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                 <a href="#"><h4 class="title">Envato</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
                             </div>
                             <div class="col-sm-4 col-xs-6 col-profile">
-                                <a href="#"><img src="assets/a_002.png" alt="Profile" data-pagespeed-url-hash="542312108" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/a_003.png" alt="Profile" data-pagespeed-url-hash="542312108" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                 <a href="#"><h4 class="title">Behance</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
                             </div>
                             <div class="col-sm-4 col-xs-6 col-profile">
-                                <a href="#"><img src="assets/b_002.png" alt="Profile" data-pagespeed-url-hash="836812029" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/b_003.png" alt="Profile" data-pagespeed-url-hash="836812029" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                 <a href="#"><h4 class="title">Dribbble</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
                             </div>
                             <div class="col-sm-4 col-xs-6 col-profile">
-                                <a href="#"><img src="assets/c_002.png" alt="Profile" data-pagespeed-url-hash="1131311950" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/c.png" alt="Profile" data-pagespeed-url-hash="1131311950" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                                 <a href="#"><h4 class="title">Envato</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu</p>
                             </div>
                         </div>
                     </div>
@@ -624,13 +628,12 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
             </div>
         </section>
         <!--=============End profiles-area section===========-->
-        
         <!--=============start clients section===========-->
         <section id="clients" class="clients">
             <div class="container">
-                <div class="row display-f dark-bg">
+                <div class="row display-f">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Clients</h2>
                             <h6>Companies I have worked with</h6>
                         </div>
@@ -638,22 +641,22 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
                     <div class="col-md-9 col-right sec-pad">
                         <div class="clients-slider row">
                             <div class="col-sm-4 col-xs-6 client-logo">
-                                <a href="#"><img src="assets/cl-1.png" alt="Client" data-pagespeed-url-hash="2924745256" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/a.png" alt="Client" data-pagespeed-url-hash="510742308" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                             </div>
                             <div class="col-sm-4 col-xs-6 client-logo">
-                                <a href="#"><img src="assets/cl-2.png" alt="Client" data-pagespeed-url-hash="3219245177" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/b_002.png" alt="Client" data-pagespeed-url-hash="805242229" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                             </div>
                             <div class="col-sm-4 col-xs-6 client-logo">
-                                <a href="#"><img src="assets/cl-3.png" alt="Client" data-pagespeed-url-hash="3513745098" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/c_003.png" alt="Client" data-pagespeed-url-hash="1099742150" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                             </div>
                             <div class="col-sm-4 col-xs-6 client-logo">
-                                <a href="#"><img src="assets/cl-5.png" alt="Client" data-pagespeed-url-hash="4102744940" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/d_002.png" alt="Client" data-pagespeed-url-hash="1394242071" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                             </div>
                             <div class="col-sm-4 col-xs-6 client-logo">
-                                <a href="#"><img src="assets/cl-1.png" alt="Client" data-pagespeed-url-hash="2924745256" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/a.png" alt="Client" data-pagespeed-url-hash="510742308" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                             </div>
                             <div class="col-sm-4 col-xs-6 client-logo">
-                                <a href="#"><img src="assets/cl-2.png" alt="Client" data-pagespeed-url-hash="3219245177" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                <a href="#"><img src="Smith_files/b_002.png" alt="Client" data-pagespeed-url-hash="805242229" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                             </div>
                         </div>
                     </div>
@@ -665,9 +668,9 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
         <!--=============start clients section===========-->
         <section id="blog" class="blog">
             <div class="container">
-            <div class="row display-f dark-bg bg-color">
+            <div class="row display-f bg-color">
                 <div class="col-md-3 col-left">
-                    <div class="sec-title dk">
+                    <div class="sec-title">
                         <h2>Blog</h2>
                         <h6>What's happening out there</h6>
                     </div>
@@ -680,91 +683,91 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
                         
                         
                         
-                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-2042px, 0px, 0px); transition: all 1s ease 0s; width: 4902px;"><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/d.jpg" alt="Blog" data-pagespeed-url-hash="3038663071" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -6px; left: 0px;"></a>
+                    <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1634px, 0px, 0px); transition: all 1s ease 0s; width: 4902px;"><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/d.jpg" alt="Blog" data-pagespeed-url-hash="3038663071" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -6px; left: 0px;"></a>
                             <div class="text">
                                 <h5 class="blog-date">14 December 2016</h5>
                                 <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
                         </div></div><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/e.jpg" alt="Blog" data-pagespeed-url-hash="3333162992" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -69.5px; left: 0px;"></a>
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/e.jpg" alt="Blog" data-pagespeed-url-hash="3333162992" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -69.5px; left: 0px;"></a>
                             <div class="text">
                                 <h5 class="blog-date">13 December 2016</h5>
                                 <a href="#"><h4 class="title">Lorem ipsum dolor sit amet. Too much lorem ipsum this time</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
                         </div></div><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/f.jpg" alt="Blog" data-pagespeed-url-hash="3627662913" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -16.2919px;"></a>
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/f.jpg" alt="Blog" data-pagespeed-url-hash="3627662913" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -16.2919px;"></a>
                             <div class="text">
                                 <h5 class="blog-date">14 December 2016</h5>
                                 <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
                         </div></div><div class="owl-item" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/a.jpg" alt="Blog" data-pagespeed-url-hash="2155163308" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -24.0211px;"></a>
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/a.jpg" alt="Blog" data-pagespeed-url-hash="2155163308" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -24.0211px;"></a>
                             <div class="text">
                                 <h5 class="blog-date">13 December 2016</h5>
                                 <a href="#"><h4 class="title">Lorem ipsum dolor sit amet. Too much lorem ipsum this time</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
-                            </div>
-                        </div></div><div class="owl-item" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/b.jpg" alt="Blog" data-pagespeed-url-hash="2449663229" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -5.5px; left: 0px;"></a>
-                            <div class="text">
-                                <h5 class="blog-date">14 December 2016</h5>
-                                <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
                         </div></div><div class="owl-item active" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/c.jpg" alt="Blog" data-pagespeed-url-hash="2744163150" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -24.0211px;"></a>
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/b.jpg" alt="Blog" data-pagespeed-url-hash="2449663229" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -5.5px; left: 0px;"></a>
                             <div class="text">
-                                <h5 class="blog-date">13 December 2016</h5>
-                                <a href="#"><h4 class="title">Lorem ipsum dolor sit amet. Too much lorem ipsum this time</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <h5 class="blog-date">14 December 2016</h5>
+                                <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
                         </div></div><div class="owl-item active" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/d.jpg" alt="Blog" data-pagespeed-url-hash="3038663071" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -6px; left: 0px;"></a>
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/c.jpg" alt="Blog" data-pagespeed-url-hash="2744163150" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -24.0211px;"></a>
                             <div class="text">
-                                <h5 class="blog-date">14 December 2016</h5>
-                                <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <h5 class="blog-date">13 December 2016</h5>
+                                <a href="#"><h4 class="title">Lorem ipsum dolor sit amet. Too much lorem ipsum this time</h4></a>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
                         </div></div><div class="owl-item" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/e.jpg" alt="Blog" data-pagespeed-url-hash="3333162992" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -69.5px; left: 0px;"></a>
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/d.jpg" alt="Blog" data-pagespeed-url-hash="3038663071" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -6px; left: 0px;"></a>
                             <div class="text">
-                                <h5 class="blog-date">13 December 2016</h5>
-                                <a href="#"><h4 class="title">Lorem ipsum dolor sit amet. Too much lorem ipsum this time</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <h5 class="blog-date">14 December 2016</h5>
+                                <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
                         </div></div><div class="owl-item" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/f.jpg" alt="Blog" data-pagespeed-url-hash="3627662913" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -16.2919px;"></a>
-                            <div class="text">
-                                <h5 class="blog-date">14 December 2016</h5>
-                                <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
-                            </div>
-                        </div></div><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/a.jpg" alt="Blog" data-pagespeed-url-hash="2155163308" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -24.0211px;"></a>
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/e.jpg" alt="Blog" data-pagespeed-url-hash="3333162992" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -69.5px; left: 0px;"></a>
                             <div class="text">
                                 <h5 class="blog-date">13 December 2016</h5>
                                 <a href="#"><h4 class="title">Lorem ipsum dolor sit amet. Too much lorem ipsum this time</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
-                        </div></div><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/b.jpg" alt="Blog" data-pagespeed-url-hash="2449663229" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -5.5px; left: 0px;"></a>
+                        </div></div><div class="owl-item" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/f.jpg" alt="Blog" data-pagespeed-url-hash="3627662913" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -16.2919px;"></a>
                             <div class="text">
                                 <h5 class="blog-date">14 December 2016</h5>
                                 <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
                         </div></div><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
-                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="assets/c.jpg" alt="Blog" data-pagespeed-url-hash="2744163150" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -24.0211px;"></a>
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/a.jpg" alt="Blog" data-pagespeed-url-hash="2155163308" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -24.0211px;"></a>
                             <div class="text">
                                 <h5 class="blog-date">13 December 2016</h5>
                                 <a href="#"><h4 class="title">Lorem ipsum dolor sit amet. Too much lorem ipsum this time</h4></a>
-                                <p class="sec-p">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
                             </div>
-                        </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot"><span></span></div><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div></div></div>
+                        </div></div><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/b.jpg" alt="Blog" data-pagespeed-url-hash="2449663229" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: 379px; height: auto; top: -5.5px; left: 0px;"></a>
+                            <div class="text">
+                                <h5 class="blog-date">14 December 2016</h5>
+                                <a href="#"><h4 class="title">Digital Art is the only serious thing in the world</h4></a>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                            </div>
+                        </div></div><div class="owl-item cloned" style="width: 378.5px; margin-right: 30px;"><div class="blog-item">
+                            <a class="blog-thumb img-fill-container" href="#" style="overflow: hidden; position: relative;"><img src="Smith_files/c.jpg" alt="Blog" data-pagespeed-url-hash="2744163150" onload="pagespeed.CriticalImages.checkImageForCriticality(this);" class="" style="position: absolute; width: auto; height: 240px; top: 0px; left: -24.0211px;"></a>
+                            <div class="text">
+                                <h5 class="blog-date">13 December 2016</h5>
+                                <a href="#"><h4 class="title">Lorem ipsum dolor sit amet. Too much lorem ipsum this time</h4></a>
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur occaecat cupidatat.</p>
+                            </div>
+                        </div></div></div></div><div class="owl-nav disabled"><div class="owl-prev">prev</div><div class="owl-next">next</div></div><div class="owl-dots"><div class="owl-dot active"><span></span></div><div class="owl-dot"><span></span></div><div class="owl-dot"><span></span></div></div></div>
                 </div>
                 </div>
             </div>
@@ -773,9 +776,9 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
         <!--=============Start contact section===========-->
         <section id="contact" class="contact">
             <div class="container">
-                <div class="row display-f dark-bg">
+                <div class="row display-f">
                     <div class="col-md-3 col-left">
-                        <div class="sec-title dk">
+                        <div class="sec-title">
                             <h2>Contact</h2>
                             <h6>Say Hello</h6>
                         </div>
@@ -802,13 +805,13 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
                             </div>
                             <button type="submit">Send message</button>
                             <span class="contact-submit-progress"></span>
-                            <p class="contact-submit-message"></p>
+                            <p style="display:block;" class="contact-submit-message"></p>
                         </form>
                         <div class="contact-infos">
-                            <div class="header-contact-info"><i class="fa fa-map-marker" aria-hidden="true"></i>Manhattan, NY</div>
+                            <div href="#" class="header-contact-info"><i class="fa fa-map-marker" aria-hidden="true"></i>Manhattan, NY</div>
                             <a href="#" class="header-contact-info"><i class="fa fa-globe" aria-hidden="true"></i>www.michsmit.com</a>
                             <a href="mailto:smith.droit@gmail" class="header-contact-info"><i class="fa fa-envelope-o" aria-hidden="true"></i>inbox@michsmit.com</a>
-                            <div class="header-contact-info"><i class="fa fa-phone" aria-hidden="true"></i>123-456-7890</div>
+                            <div href="#" class="header-contact-info"><i class="fa fa-phone" aria-hidden="true"></i>123-456-7890</div>
                         </div>
                     </div>
                 </div>
@@ -818,7 +821,7 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
         <!--=============Start footer-area ===========-->
         <footer class="footer-area">
             <div class="container">
-                <div class="row display-f dark-bg bg-color">
+                <div class="row display-f bg-color">
                     <div class="col-md-3 col-sm-4 col-left">
                         <div class="sec-title">
                             <h6>© 2017 / www.smith.com</h6>
@@ -843,20 +846,20 @@ lacinia arcu et nulla. Nulla vitae mauris non felis mollis. Sed egestas,
         </footer>
         <!--=============End footer-area ===========-->
         <!-- js -->
-        <script type="text/javascript" src="assets/jquery-2.js"></script>
-        <script type="text/javascript" src="assets/bootstrap.js"></script>
-        <script src="assets/waypoints.js"></script>
-        <script type="text/javascript" src="assets/apear.js"></script>
-        <script type="text/javascript" src="assets/jquery_003.js"></script>
-        <script src="assets/jquery_002.js"></script>
-        <script type="text/javascript" src="assets/imagesloaded.js"></script>
-        <script type="text/javascript" src="assets/isotope-min.js"></script>
-        <script type="text/javascript" src="assets/jquery.js"></script>
-        <script type="text/javascript" src="assets/owl.js"></script>
-        <script type="text/javascript" src="assets/jquery-imagefill.js"></script>
-        <script type="text/javascript" src="assets/jquery-nav.js"></script>
-        <script type="text/javascript" src="assets/nicescroll.js"></script>
+        <script type="text/javascript" src="Smith_files/jquery-2.js"></script>
+        <script type="text/javascript" src="Smith_files/bootstrap.js"></script>
+        <script src="Smith_files/waypoints.js"></script>
+        <script src="Smith_files/jquery_002.js"></script>
+        <script type="text/javascript" src="Smith_files/imagesloaded.js"></script>
+        <script type="text/javascript" src="Smith_files/apear.js"></script>
+        <script type="text/javascript" src="Smith_files/isotope-min.js"></script>
+        <script type="text/javascript" src="Smith_files/jquery.js"></script>
+        <script type="text/javascript" src="Smith_files/owl.js"></script>
+        <script type="text/javascript" src="Smith_files/jquery-imagefill.js"></script>
+        <script type="text/javascript" src="Smith_files/jquery-nav.js"></script>
+        <script type="text/javascript" src="Smith_files/jquery_003.js"></script>
+        <script type="text/javascript" src="Smith_files/nicescroll.js"></script>
         <!-- custom js -->
-        <script type="text/javascript" src="assets/custom.js"></script>
+        <script type="text/javascript" src="Smith_files/custom.js"></script>
     
 </body></html>
